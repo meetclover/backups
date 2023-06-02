@@ -1,1 +1,41 @@
 
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "age": 18,
+      "job": 1
+    },
+    {
+      "id": 2,
+      "username": "admin2",
+      "age": 28,
+      "job": 2
+    },
+    {
+      "id": 3,
+      "username": "admin3",
+      "age": 38,
+      "job": 3
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "name": "学生"
+    },
+    {
+      "id": 2,
+      "name": "老师"
+    },
+    {
+      "id": 3,
+      "name": "司机"
+    },
+    {
+      "id": 4,
+      "name": "黑客"
+    }
+  ]
+}
