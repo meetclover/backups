@@ -19,12 +19,13 @@ const path = require('path')
 let strShare = './dewu.json';
 let Fileexists = fs.existsSync(strShare);
 let TempShareCache = [];
+let dewucode = ''
 if (Fileexists) {
 $.logAndNotify("检测到互助码缓存文件已存在");
 TempShareCache = fs.readFileSync(strShare, 'utf-8');
 if (TempShareCache) {
 TempShareCache = JSON.parse(TempShareCache);
-let dewucode= TempShareCache[0].dewu.trim();
+ dewucode= TempShareCache[0].dewu.trim();
 }
 }else{
 $.logAndNotify("未检测到互助码缓存文件，去创建...");
